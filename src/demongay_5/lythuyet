@@ -1,0 +1,20 @@
+- Kế thừa là cơ chế cho phép một lớp Con sử dụng lại các đặc điểm và
+hành vi đã được định nghĩa trong lớp Cha:
+    + Lớp con kế thừa tất cả các thành phần của lớp cha,ngoại trừ các
+      thành phần được khai báo là private
+    + Constructor không được kế thừa
+    + Lớp con có thể gọi constructor của lớp cha
+
+  Cú pháp kế thừa
+  class <SubClass> extends <Supper> Class
+  {
+  //Class body
+  }
+  Trong đó:
+  • SubClass là tên của lớp con
+  • SupperClass là tên của lớp cha
+
+ - Ghi đè phương thức: là cơ chế cho phép lớp con
+                       định nghĩa lại các phương thức đã được
+                       định nghĩa trước đó ở lớp cha
+     + Từ khoá override được sử dụng để ghi đè phương thức.
